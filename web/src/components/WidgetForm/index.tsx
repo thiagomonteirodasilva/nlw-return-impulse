@@ -1,5 +1,3 @@
-import { CloseButton } from "../CloseButton";
-
 import bugImageUrl from '../../assets/bug.svg';
 import ideaImageUrl from '../../assets/idea.svg';
 import thoughtImageUrl from '../../assets/thought.svg';
@@ -62,7 +60,8 @@ export function WidgetForm(){
             )}
 
             <footer className="text-xs text-neutral-400">
-                Feito com ♥ pela <a className="underline underline-offset-2" href="https://rocketseat.com.br" target="_blank">Rocketseat</a>
+                Feito com ♥ pela <a className="underline underline-offset-2" href="https://rocketseat.com.br" target="_blank">Rocketseat</a><br />
+                Coded by Thiago Monteiro
             </footer>
         </div>
     )
